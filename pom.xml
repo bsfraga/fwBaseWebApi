@@ -53,23 +53,9 @@
 		<version.cucumber>4.7.2</version.cucumber>
 	</properties>
 
-	<repositories>
-		<repository>
-			<id>in-project</id>
-			<name>In Project Repo</name>
-			<url>file://${project-basedir}/src/main/resources/</url>
-		</repository>
-	</repositories>
 
 	<dependencies>
 
-		<dependency>
-			<groupId>bson</groupId>
-			<artifactId>bson-3.11.2</artifactId>
-			<version>3.11.2</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/test/resources/jar/bson-3.11.2.jar</systemPath>
-		</dependency>
 
 		<dependency>
 			<groupId>com.aventstack</groupId>

@@ -9,7 +9,7 @@ import io.restassured.builder.ResponseSpecBuilder;
 
 /**
  * This class is where the project constants values are setted up.
- * @author Bruno Fraga
+ * @author bsfraga
  *
  */
 
@@ -21,7 +21,7 @@ public class BaseTest implements IConstants{
 		
 		/*
 		 * The next 3 lines indicates the URL, BASE PATH and API PORT from the domain that will be tested 
-		 * informed into the interface Contatans.java
+		 * informed into the interface IConstants.java
 		 */
 		
 		RestAssured.baseURI = API_BASE_URL;

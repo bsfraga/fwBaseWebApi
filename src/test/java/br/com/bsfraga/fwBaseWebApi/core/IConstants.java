@@ -5,7 +5,7 @@ import io.restassured.http.ContentType;
 /**
  * This Interface is where you define the basic informations about the domain such as
  * URL, API BASE PATH, PORT and more.
- * @author Bruno Fraga
+ * @author bsfraga
  *
  */
 public interface IConstants {
@@ -14,7 +14,7 @@ public interface IConstants {
 	 * This attribute sets the URL base from the API.
 	 * For example: https://swapi.co/
 	 */
-	public static String API_BASE_URL = "https://portalweb-des.auttar.com.br/";
+	public static String API_BASE_URL = "";
 	
 	/**
 	 * This attribute sets the port related to the request type.
